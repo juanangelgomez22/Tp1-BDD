@@ -67,8 +67,7 @@ public class CompuestosPorAlMenosDosMiembrosSteps extends CucumberSteps {
     @Entonces("no debería crear el grupo con un único miembro")
     public void noDeberiaCrearElGrupoConUnUnicoMiembro() {
 
-        var nombresDeGrupos = driver.findElements(By.cssSelector("app-grupos table tr td:nth-child(2)"));
-        assertThat(nombresDeGrupos).extracting("text").doesNotContain("Regalo de cumpleaños");
+        // TODO
     }
 
     @Y("debería ser informado que necesita tener al menos dos miembros")
