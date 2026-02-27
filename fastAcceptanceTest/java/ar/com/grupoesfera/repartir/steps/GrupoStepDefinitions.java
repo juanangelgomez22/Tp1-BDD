@@ -31,14 +31,4 @@ public class GrupoStepDefinitions {
     public void verificarMensajeError(String errorEsperado) {
         assertEquals(errorEsperado, this.mensajeError);
     }
-
-    @Cuando("intento registrar un gasto de {int} pesos por {string}")
-    public void intentarRegistrarGastoEnPresente(int monto, String descripcion) {
-        intentarRegistrarGasto(monto, descripcion);
-    }
-
-    @Entonces("el total del grupo {string} debe permanecer en {int} pesos")
-    public void verificarTotalDelGrupo(String nombre, int totalEsperado) {
-        verificarTotal(totalEsperado);
-    }
 }
