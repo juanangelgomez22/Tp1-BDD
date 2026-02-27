@@ -71,4 +71,10 @@ public class Grupo {
 
         return (miembros != null) && (miembros.size() > 1);
     }
+
+    public void agregarGasto(Gasto gasto) {
+        if (gasto.getMonto().compareTo(BigDecimal.ZERO) <= 0) {
+            throw new IllegalArgumentException("El total del gasto no debe ser cero ni negativo");
+        }
+    }
 }
