@@ -77,12 +77,14 @@ fastAcceptanceTest {
 integrationTest {
 	useJUnitPlatform()
 	mustRunAfter fastAcceptanceTest
+	jacoco.enabled = false
 }
 
 uiTest {
 	useJUnitPlatform()
 	mustRunAfter integrationTest
 	systemProperties = System.properties
+	jacoco.enabled = false
 }
 
 acceptanceTest {
