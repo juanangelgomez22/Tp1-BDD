@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.com.grupoesfera.repartir.model.GrupoTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2026-03-22T14:52:42" hostname="juancho-System-Product-Name" time="0.103">
+  <properties/>
+  <testcase name="crearSinParametros()" classname="ar.com.grupoesfera.repartir.model.GrupoTest" time="0.097"/>
+  <testcase name="noEstaFormadoCuandoLosMiembrosSonNulos()" classname="ar.com.grupoesfera.repartir.model.GrupoTest" time="0.001"/>
+  <testcase name="crearConId()" classname="ar.com.grupoesfera.repartir.model.GrupoTest" time="0.001"/>
+  <testcase name="estaFormadoCuandoTieneDosMiembros()" classname="ar.com.grupoesfera.repartir.model.GrupoTest" time="0.001"/>
+  <testcase name="noEstaFormadoCuandoTieneSoloUnMiembro()" classname="ar.com.grupoesfera.repartir.model.GrupoTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

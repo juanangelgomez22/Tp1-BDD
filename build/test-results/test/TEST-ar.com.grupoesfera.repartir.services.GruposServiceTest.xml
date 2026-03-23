@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.com.grupoesfera.repartir.services.GruposServiceTest" tests="7" skipped="0" failures="0" errors="0" timestamp="2026-03-22T14:52:42" hostname="juancho-System-Product-Name" time="0.538">
+  <properties/>
+  <testcase name="crearGrupoLanzaExcepcionSiElGrupoNoTieneMiembros()" classname="ar.com.grupoesfera.repartir.services.GruposServiceTest" time="0.502"/>
+  <testcase name="recuperarGrupoPorIdLanzaExceptionSiNoLoEncuentra()" classname="ar.com.grupoesfera.repartir.services.GruposServiceTest" time="0.014"/>
+  <testcase name="crearGrupo()" classname="ar.com.grupoesfera.repartir.services.GruposServiceTest" time="0.014"/>
+  <testcase name="agregarGastoDe300AlGrupoDelAlmuerzoSinGastos()" classname="ar.com.grupoesfera.repartir.services.GruposServiceTest" time="0.002"/>
+  <testcase name="agregarGastoAlGrupoLanzaExcepcionCuandoElGrupoNoExiste()" classname="ar.com.grupoesfera.repartir.services.GruposServiceTest" time="0.002"/>
+  <testcase name="recuperarGrupoPorId()" classname="ar.com.grupoesfera.repartir.services.GruposServiceTest" time="0.001"/>
+  <testcase name="agregarGastoDe97AlGrupoDelViajeQueTeniaComoTotal112()" classname="ar.com.grupoesfera.repartir.services.GruposServiceTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

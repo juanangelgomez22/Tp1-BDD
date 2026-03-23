@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2026-03-22T11:53:32.202">
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/test/java/ar/com/grupoesfera/repartir/model/GrupoTest.java">
+<violation beginline="25" endline="25" begincolumn="20" endcolumn="21" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.model" class="GrupoTest" method="crearConId" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/test/java/ar/com/grupoesfera/repartir/services/GruposServiceTest.java">
+<violation beginline="66" endline="66" begincolumn="20" endcolumn="29" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="recuperarGrupoPorId" variable="ID_BUSCADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID_BUSCADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="67" endline="67" begincolumn="21" endcolumn="25" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="recuperarGrupoPorId" variable="GRUPO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'GRUPO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="68" endline="68" begincolumn="31" endcolumn="40" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="recuperarGrupoPorId" variable="ENCONTRADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ENCONTRADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="80" endline="80" begincolumn="20" endcolumn="29" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="recuperarGrupoPorIdLanzaExceptionSiNoLoEncuentra" variable="ID_BUSCADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID_BUSCADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="81" endline="81" begincolumn="31" endcolumn="43" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="recuperarGrupoPorIdLanzaExceptionSiNoLoEncuentra" variable="NO_ENCONTRADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'NO_ENCONTRADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="93" endline="93" begincolumn="20" endcolumn="39" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoAlGrupoLanzaExcepcionCuandoElGrupoNoExiste" variable="ID_GRUPO_INEXISTENTE" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID_GRUPO_INEXISTENTE' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="94" endline="94" begincolumn="31" endcolumn="43" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoAlGrupoLanzaExcepcionCuandoElGrupoNoExiste" variable="NO_ENCONTRADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'NO_ENCONTRADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="109" endline="109" begincolumn="20" endcolumn="30" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe300AlGrupoDelAlmuerzoSinGastos" variable="ID_ALMUERZO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID_ALMUERZO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="110" endline="110" begincolumn="21" endcolumn="28" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe300AlGrupoDelAlmuerzoSinGastos" variable="ALMUERZO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ALMUERZO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="111" endline="111" begincolumn="21" endcolumn="33" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe300AlGrupoDelAlmuerzoSinGastos" variable="GASTO_POR_300" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'GASTO_POR_300' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="112" endline="112" begincolumn="26" endcolumn="33" rule="AvoidDollarSigns" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe300AlGrupoDelAlmuerzoSinGastos" variable="$_300_00" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#avoiddollarsigns" priority="3">
+Avoid using dollar signs in variable/method/class/interface names
+</violation>
+<violation beginline="112" endline="112" begincolumn="26" endcolumn="33" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe300AlGrupoDelAlmuerzoSinGastos" variable="$_300_00" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name '$_300_00' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="122" endline="122" begincolumn="58" endcolumn="59" rule="FormalParameterNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="crearGrupoAlmuerzoSinGastos" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The final method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="144" endline="144" begincolumn="20" endcolumn="27" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe97AlGrupoDelViajeQueTeniaComoTotal112" variable="ID_VIAJE" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID_VIAJE' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="145" endline="145" begincolumn="21" endcolumn="25" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe97AlGrupoDelViajeQueTeniaComoTotal112" variable="VIAJE" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'VIAJE' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="146" endline="146" begincolumn="21" endcolumn="32" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe97AlGrupoDelViajeQueTeniaComoTotal112" variable="GASTO_POR_97" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'GASTO_POR_97' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="147" endline="147" begincolumn="26" endcolumn="33" rule="AvoidDollarSigns" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe97AlGrupoDelViajeQueTeniaComoTotal112" variable="$_209_00" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#avoiddollarsigns" priority="3">
+Avoid using dollar signs in variable/method/class/interface names
+</violation>
+<violation beginline="147" endline="147" begincolumn="26" endcolumn="33" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="agregarGastoDe97AlGrupoDelViajeQueTeniaComoTotal112" variable="$_209_00" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name '$_209_00' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="157" endline="157" begincolumn="51" endcolumn="52" rule="FormalParameterNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="GruposServiceTest" method="crearGrupoViajeConTotal112" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/test/java/ar/com/grupoesfera/repartir/services/MontosServiceTest.java">
+<violation beginline="22" endline="22" begincolumn="24" endcolumn="49" rule="AvoidDollarSigns" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="MontosServiceTest" method="$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#avoiddollarsigns" priority="3">
+Avoid using dollar signs in variable/method/class/interface names
+</violation>
+<violation beginline="22" endline="25" begincolumn="13" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="MontosServiceTest" method="$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/test/java/ar/com/grupoesfera/repartir/services/UsuariosServiceTest.java">
+<violation beginline="8" endline="8" begincolumn="1" endcolumn="59" rule="UnnecessaryImport" ruleset="Code Style" package="ar.com.grupoesfera.repartir.services" class="UsuariosServiceTest" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.springframework.boot.test.mock.mockito.MockBean'
+</violation>
+<violation beginline="16" endline="21" begincolumn="51" endcolumn="5" rule="DoubleBraceInitialization" ruleset="Best Practices" package="ar.com.grupoesfera.repartir.services" class="UsuariosServiceTest" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#doublebraceinitialization" priority="3">
+Double-brace initialization should be avoided
+</violation>
+<violation beginline="51" endline="51" begincolumn="50" endcolumn="56" rule="UnusedFormalParameter" ruleset="Best Practices" package="ar.com.grupoesfera.repartir.services" class="UsuariosServiceTest" method="entoncesSonConcordantes" variable="persona" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'persona'.
+</violation>
+</file>
+</pmd>

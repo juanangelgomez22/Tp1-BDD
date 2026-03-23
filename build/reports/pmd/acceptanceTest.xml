@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2026-03-22T11:53:27.800">
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/acceptanceTest/java/ar/com/grupoesfera/repartir/steps/Step.java">
+<violation beginline="4" endline="4" begincolumn="1" endcolumn="31" rule="UnnecessaryImport" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps" class="Step" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'io.cucumber.java.en.And'
+</violation>
+<violation beginline="5" endline="5" begincolumn="1" endcolumn="31" rule="UnnecessaryImport" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps" class="Step" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.apiguardian.api.API'
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/acceptanceTest/java/ar/com/grupoesfera/repartir/steps/gastos/AgregarGastosJourneySteps.java">
+<violation beginline="6" endline="6" begincolumn="1" endcolumn="32" rule="UnnecessaryImport" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps.gastos" class="AgregarGastosJourneySteps" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'org.openqa.selenium.Keys'
+</violation>
+<violation beginline="9" endline="9" begincolumn="1" endcolumn="22" rule="UnnecessaryImport" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps.gastos" class="AgregarGastosJourneySteps" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryimport" priority="4">
+Unused import 'java.util.List'
+</violation>
+<violation beginline="46" endline="53" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps.gastos" class="AgregarGastosJourneySteps" method="veLaConfirmación" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'veLaConfirmación' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="56" endline="56" begincolumn="17" endcolumn="73" rule="AvoidDollarSigns" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps.gastos" class="AgregarGastosJourneySteps" method="veElTotalDelGrupoActualidadoA$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#avoiddollarsigns" priority="3">
+Avoid using dollar signs in variable/method/class/interface names
+</violation>
+<violation beginline="56" endline="63" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps.gastos" class="AgregarGastosJourneySteps" method="veElTotalDelGrupoActualidadoA$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'veElTotalDelGrupoActualidadoA$' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/acceptanceTest/java/ar/com/grupoesfera/repartir/steps/grupos/EstadoInicialSteps.java">
+<violation beginline="40" endline="40" begincolumn="17" endcolumn="84" rule="AvoidDollarSigns" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps.grupos" class="EstadoInicialSteps" method="deberiaVisualizaDentroDelListadoElGrupoCreadoConTotal$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#avoiddollarsigns" priority="3">
+Avoid using dollar signs in variable/method/class/interface names
+</violation>
+<violation beginline="40" endline="47" begincolumn="12" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.steps.grupos" class="EstadoInicialSteps" method="deberiaVisualizaDentroDelListadoElGrupoCreadoConTotal$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'deberiaVisualizaDentroDelListadoElGrupoCreadoConTotal$' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+</pmd>

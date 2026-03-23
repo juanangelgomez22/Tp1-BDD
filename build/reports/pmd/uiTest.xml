@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2026-03-22T11:53:33.365">
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/uiTest/java/ar/com/grupoesfera/repartir/ui/CrearGrupo.java">
+<violation beginline="43" endline="43" begincolumn="18" endcolumn="49" rule="UselessParentheses" ruleset="Code Style" package="ar.com.grupoesfera.repartir.ui" class="CrearGrupo" method="comprobarQueSeRecibieronLosDatosDelGrupo" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="44" endline="44" begincolumn="18" endcolumn="66" rule="UselessParentheses" ruleset="Code Style" package="ar.com.grupoesfera.repartir.ui" class="CrearGrupo" method="comprobarQueSeRecibieronLosDatosDelGrupo" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#uselessparentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/uiTest/java/ar/com/grupoesfera/repartir/ui/ListarGrupos.java">
+<violation beginline="36" endline="36" begincolumn="13" endcolumn="22" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.ui" class="ListarGrupos" method="dadoQueExisteSoloElGrupoCampamentoConRocioYMacarena" variable="CAMPAMENTO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The local variable name 'CAMPAMENTO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="36" endline="37" begincolumn="26" endcolumn="24" rule="UnnecessaryFullyQualifiedName" ruleset="Code Style" package="ar.com.grupoesfera.repartir.ui" class="ListarGrupos" method="dadoQueExisteSoloElGrupoCampamentoConRocioYMacarena" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#unnecessaryfullyqualifiedname" priority="4">
+Unnecessary use of fully qualified name 'Fixture.unGrupo' due to existing static import 'ar.com.grupoesfera.repartir.itest.fixtures.Fixture.*'
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/uiTest/java/ar/com/grupoesfera/repartir/uitest/HelloSelenium.java">
+<violation beginline="13" endline="31" begincolumn="28" endcolumn="1" rule="UseUtilityClass" ruleset="Design" package="ar.com.grupoesfera.repartir.uitest" class="HelloSelenium" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_design.html#useutilityclass" priority="3">
+All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.
+</violation>
+</file>
+</pmd>

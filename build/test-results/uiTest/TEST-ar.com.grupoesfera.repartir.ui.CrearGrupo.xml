@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ar.com.grupoesfera.repartir.ui.CrearGrupo" tests="2" skipped="0" failures="0" errors="0" timestamp="2026-03-22T14:54:52" hostname="juancho-System-Product-Name" time="11.325">
+  <properties/>
+  <testcase name="fallaParaLaCenaDeUnaPersona()" classname="ar.com.grupoesfera.repartir.ui.CrearGrupo" time="4.546"/>
+  <testcase name="tieneExitoParaElAfterOfficeConTresPersonas()" classname="ar.com.grupoesfera.repartir.ui.CrearGrupo" time="4.449"/>
+  <system-out><![CDATA[2026-03-22 11:54:50.047 [Test worker] INFO - SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [ar.com.grupoesfera.repartir.ui.CrearGrupo], using SpringBootContextLoader
+2026-03-22 11:54:50.048 [Test worker] INFO - AbstractContextLoader : Could not detect default resource locations for test class [ar.com.grupoesfera.repartir.ui.CrearGrupo]: no resource found for suffixes {-context.xml, Context.groovy}.
+2026-03-22 11:54:50.048 [Test worker] INFO - AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [ar.com.grupoesfera.repartir.ui.CrearGrupo]: CrearGrupo does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2026-03-22 11:54:50.049 [Test worker] INFO - SpringBootTestContextBootstrapper : Found @SpringBootConfiguration ar.com.grupoesfera.repartir.RepartirApplication for test class ar.com.grupoesfera.repartir.ui.CrearGrupo
+2026-03-22 11:54:50.050 [Test worker] INFO - SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2026-03-22 11:54:50.050 [Test worker] INFO - SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@9d7a853, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@71c69628, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4dc16fc9, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1028a747, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@24890021, org.springframework.test.context.support.DirtiesContextTestExecutionListener@613ba54e, org.springframework.test.context.transaction.TransactionalTestExecutionListener@27422187, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7205a8b7, org.springframework.test.context.event.EventPublishingTestExecutionListener@1ee126de, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@22cce199, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@14b4b25e, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@4babe06f, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c6be812, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@19ee0a2f, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@28796d0e]
+2026-03-22 11:54:52.283 [Forwarding newSession on session null to remote] INFO - ProtocolHandshake : Detected dialect: W3C
+2026-03-22 11:54:59.159 [Forwarding newSession on session null to remote] INFO - ProtocolHandshake : Detected dialect: W3C
+]]></system-out>
+  <system-err><![CDATA[1774191290056	geckodriver	INFO	Listening on 127.0.0.1:29266
+1774191290084	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileHZjkqb"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774191290350	Marionette	INFO	Marionette enabled
+1774191290841	Marionette	INFO	Listening on port 45569
+Read port: 45569
+1774191290926	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("can't access property \"find\", this._searchProviderInfo is null", "moz-src:///browser/components/search/SearchSERPTelemetry.sys.mjs", 1141))
+1774191294906	Marionette	INFO	Stopped listening on port 45569
+console.error: "Error in processing browser-idle-startup for QuickSuggest.init"
+console.error: (void 0)
+console.error: (void 0)
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Remote Settings has shut down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_execute@resource://services-settings/RemoteSettingsWorker.sys.mjs:55:13
+importJSONDump@resource://services-settings/RemoteSettingsWorker.sys.mjs:166:17
+_importJSONDump@resource://services-settings/RemoteSettingsClient.sys.mjs:1045:52
+get/this._importingPromise<@resource://services-settings/RemoteSettingsClient.sys.mjs:480:28
+get@resource://services-settings/RemoteSettingsClient.sys.mjs:513:13
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.log: WebExtensions: Data Leak Blocker initialization cancelled on detected extension or app shutdown
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1710"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1710:27
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: "Search service failed to init"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 570: uncaught exception: undefined
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1710: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1710: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+console.log: "RemoteSettingsWorker error: Error: Can't import when we've started shutting down."
+console.error: services.settings: 
+  Message: RemoteSettingsWorkerError: Error: Can't import when we've started shutting down.
+  Stack:
+    RemoteSettingsWorkerError@resource://services-settings/RemoteSettingsWorker.sys.mjs:34:5
+_onWorkerMessage@resource://services-settings/RemoteSettingsWorker.sys.mjs:102:14
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:570:17
+
+console.error: "Error in processing browser-before-ui-startup for Normandy.init"
+console.error: (new UnknownError("The operation failed for reasons unrelated to the database itself and not covered by any other error code.", (void 0)))
+console.error: PushService: "clearOriginData: Error clearing origin data:" "UnknownError"
+console.error: PushService: "stateChangeProcessEnqueue: Error transitioning state" "UnknownError"
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1774191296835	geckodriver	INFO	Listening on 127.0.0.1:2867
+1774191296864	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" "/usr/bin/firefox" "--marionette" "--headless" "-no-remote" "-profile" "/tmp/rust_mozprofileYi21mu"
+*** You are running in headless mode.
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1774191297151	Marionette	INFO	Marionette enabled
+1774191297652	Marionette	INFO	Listening on port 45809
+Read port: 45809
+1774191297724	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: (new TypeError("can't access property \"find\", this._searchProviderInfo is null", "moz-src:///browser/components/search/SearchSERPTelemetry.sys.mjs", 1141))
+1774191301286	Marionette	INFO	Stopped listening on port 45809
+console.error: "Error in processing browser-idle-startup for QuickSuggest.init"
+console.error: (void 0)
+console.error: (void 0)
+JavaScript error: , line 0: uncaught exception: undefined
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/moz-essential-domain-fallbacks getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/remote-permissions getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/url-parser-default-unknown-schemes-interventions getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/anti-tracking-url-decoration getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/query-stripping getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/fingerprinting-protection-overrides getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/hijack-blocklists getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/third-party-cookie-blocking-exempt-urls getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/addons-manager-settings getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/search-telemetry-v2 getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/addons-data-leak-blocker-domains getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/search-config-v2 getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/search-config-overrides-v2 getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/tracking-protection-lists getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/urlbar-persisted-search-terms getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: blocklists/gfx getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/search-categorization getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: services.settings: 
+  Message: UnknownError: IndexedDB: main/url-classifier-exceptions getLastModified() IndexedDB:   The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+console.error: "Error in processing browser-before-ui-startup for Normandy.init"
+console.error: (new UnknownError("The operation failed for reasons unrelated to the database itself and not covered by any other error code.", (void 0)))
+console.error: PushService: "clearOriginData: Error clearing origin data:" "UnknownError"
+console.error: PushService: "stateChangeProcessEnqueue: Error transitioning state" "UnknownError"
+console.log: WebExtensions: Data Leak Blocker initialization cancelled on detected extension or app shutdown
+console.error: WebExtensions: 
+  Message: [Exception... "#init: abandoning init due to shutting down"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "JS frame :: resource://gre/modules/SearchService.sys.mjs :: #init :: line 1710"  data: no]
+  Stack:
+    #init@resource://gre/modules/SearchService.sys.mjs:1710:27
+
+console.error: "Search service failed to init"
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1710: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+JavaScript error: resource://gre/modules/SearchService.sys.mjs, line 1710: NS_ERROR_ABORT: #init: abandoning init due to shutting down
+]]></system-err>
+</testsuite>

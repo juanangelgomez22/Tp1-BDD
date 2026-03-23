@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd xmlns="http://pmd.sourceforge.net/report/2.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pmd.sourceforge.net/report/2.0.0 http://pmd.sourceforge.net/report_2_0_0.xsd" version="6.49.0" timestamp="2026-03-22T11:53:30.101">
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/integrationTest/java/ar/com/grupoesfera/repartir/RepartirApplicationTests.java">
+<violation beginline="12" endline="13" begincolumn="54" endcolumn="2" rule="UncommentedEmptyMethodBody" ruleset="Documentation" package="ar.com.grupoesfera.repartir" class="RepartirApplicationTests" method="cargaElContextoDeSpringSinGenerarExcepciones" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_documentation.html#uncommentedemptymethodbody" priority="3">
+Document empty method body
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/integrationTest/java/ar/com/grupoesfera/repartir/controllers/UsuariosControllerIntegrationTest.java">
+<violation beginline="51" endline="51" begincolumn="41" endcolumn="42" rule="UnusedFormalParameter" ruleset="Best Practices" package="ar.com.grupoesfera.repartir.controllers" class="UsuariosControllerIntegrationTest" method="existeElUsuario" variable="id" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'id'.
+</violation>
+<violation beginline="51" endline="51" begincolumn="53" endcolumn="59" rule="UnusedFormalParameter" ruleset="Best Practices" package="ar.com.grupoesfera.repartir.controllers" class="UsuariosControllerIntegrationTest" method="existeElUsuario" variable="usuario" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_bestpractices.html#unusedformalparameter" priority="3">
+Avoid unused method parameters such as 'usuario'.
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/integrationTest/java/ar/com/grupoesfera/repartir/itest/fixtures/Fixture.java">
+<violation beginline="22" endline="22" begincolumn="30" endcolumn="55" rule="AvoidDollarSigns" ruleset="Code Style" package="ar.com.grupoesfera.repartir.itest.fixtures" class="Fixture" method="$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#avoiddollarsigns" priority="3">
+Avoid using dollar signs in variable/method/class/interface names
+</violation>
+<violation beginline="22" endline="25" begincolumn="19" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.itest.fixtures" class="Fixture" method="$" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The static method name '$' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+<file name="/home/juancho/Escritorio/Tp1-BDD-main/src/integrationTest/java/ar/com/grupoesfera/repartir/repositories/GruposRepositoryTest.java">
+<violation beginline="61" endline="61" begincolumn="26" endcolumn="39" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="actualizarElTotal" variable="VALOR_ORIGINAL" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'VALOR_ORIGINAL' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="64" endline="64" begincolumn="20" endcolumn="21" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="actualizarElTotal" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="66" endline="66" begincolumn="26" endcolumn="42" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="actualizarElTotal" variable="VALOR_ACTUALIZADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'VALOR_ACTUALIZADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="79" endline="79" begincolumn="20" endcolumn="21" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="alCambiaElTotalDeUnaCuentaCompartidaExistenteYGuardarlaElTotalSeActualiza" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="86" endline="86" begincolumn="19" endcolumn="30" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="dadoQueExisteUnaCuentaConTotalDe210" variable="ALGUN_NOMBRE" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ALGUN_NOMBRE' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="87" endline="87" begincolumn="19" endcolumn="34" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="dadoQueExisteUnaCuentaConTotalDe210" variable="ALGUNOS_MIEMBROS" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'ALGUNOS_MIEMBROS' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="88" endline="88" begincolumn="19" endcolumn="32" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="dadoQueExisteUnaCuentaConTotalDe210" variable="TOTAL_ORIGINAL" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'TOTAL_ORIGINAL' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="98" endline="98" begincolumn="82" endcolumn="83" rule="FormalParameterNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="cuandoCambioElTotalPor334_10YLoGuardoParaCuentaConId" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The final method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="98" endline="105" begincolumn="13" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="cuandoCambioElTotalPor334_10YLoGuardoParaCuentaConId" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'cuandoCambioElTotalPor334_10YLoGuardoParaCuentaConId' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="100" endline="100" begincolumn="26" endcolumn="42" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="cuandoCambioElTotalPor334_10YLoGuardoParaCuentaConId" variable="TOTAL_ACTUALIZADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'TOTAL_ACTUALIZADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="107" endline="107" begincolumn="85" endcolumn="86" rule="FormalParameterNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="entoncesQuedaActualizadoElTotalPor334_10ParaCuentaConId" variable="ID" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#formalparameternamingconventions" priority="1">
+The final method parameter name 'ID' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="107" endline="114" begincolumn="13" endcolumn="5" rule="MethodNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="entoncesQuedaActualizadoElTotalPor334_10ParaCuentaConId" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#methodnamingconventions" priority="1">
+The instance method name 'entoncesQuedaActualizadoElTotalPor334_10ParaCuentaConId' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+<violation beginline="109" endline="109" begincolumn="19" endcolumn="32" rule="LocalVariableNamingConventions" ruleset="Code Style" package="ar.com.grupoesfera.repartir.repositories" class="GruposRepositoryTest" method="entoncesQuedaActualizadoElTotalPor334_10ParaCuentaConId" variable="TOTAL_ESPERADO" externalInfoUrl="https://pmd.github.io/pmd-6.49.0/pmd_rules_java_codestyle.html#localvariablenamingconventions" priority="1">
+The final local variable name 'TOTAL_ESPERADO' doesn't match '[a-z][a-zA-Z0-9]*'
+</violation>
+</file>
+</pmd>

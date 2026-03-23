@@ -1,0 +1,16 @@
+<p-dialog id="nuevoGrupoDialog" header="Nuevo Grupo" [(visible)]="mostrar" [modal]="true">
+  <div class="p-fluid">
+    <div class="field">
+      <label for="nombreGrupoNuevoInput">Nombre</label>
+      <input id="nombreGrupoNuevoInput" type="text" class="inputfield w-full" pInputText [(ngModel)]="nombre"/>
+    </div>
+    <div class="field">
+      <label for="miembrosGrupoNuevoInput">Miembros</label>
+      <textarea id="miembrosGrupoNuevoInput" class="inputfield w-full" [(ngModel)]="miembrosText" rows="3"></textarea>
+    </div>
+  </div>
+  <p-footer>
+    <p-button id="cancelarGrupoNuevoButton" label="Cancelar" icon="pi pi-times" (onClick)="cancelar()" styleClass="p-button-danger p-button-outlined"></p-button>
+    <p-button id="guardarGrupoNuevoButton" label="Guardar" icon="pi pi-check" (onClick)="guardar()" styleClass="p-button-success"></p-button>
+  </p-footer>
+</p-dialog>
