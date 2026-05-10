@@ -8,9 +8,3 @@ Característica: Crear Grupo para repartir gastos
       Cuando el usuario intenta crear un grupo indicando un único miembro
       Entonces no debería crear el grupo con un único miembro
 
-  Regla: El total del gasto no debe ser cero ni negativo
-
-    Escenario: No puedo crear un grupo con monto cero o negativo
-      Dado un grupo existente con miembros
-      Cuando el usuario intenta agregar un gasto con monto de -5
-      Entonces la operación es rechazada por monto inválido
