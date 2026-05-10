@@ -81,8 +81,8 @@ public class Grupo {
         if (gasto == null || gasto.getMonto() == null) {
             throw new IllegalArgumentException("El gasto no puede ser nulo");
         }
-        if (gasto.getMonto().compareTo(BigDecimal.ZERO) <= 0) {
-            throw new ar.com.grupoesfera.repartir.exceptions.DomainException("El total del gasto no debe ser cero ni negativo");
+        if (gasto.getMonto().compareTo(BigDecimal.ZERO) < 0) {
+            throw new ar.com.grupoesfera.repartir.exceptions.DomainException("El monto del gasto no debe ser negativo");
         }
 
         if (this.total == null) {
